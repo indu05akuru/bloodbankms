@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="LifeDrop logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ef5350"/>
+      <stop offset="0.55" stop-color="#c62828"/>
+      <stop offset="1" stop-color="#7f0000"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 3 C32 3 11 26 11 40 a21 21 0 0 0 42 0 C53 26 32 3 32 3 Z" fill="url(#g)"/>
+  <path d="M20 24 C23 18 27 13 30 9" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
+  <path d="M17 40 H26 L30 31 L35 49 L39 37 H47" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

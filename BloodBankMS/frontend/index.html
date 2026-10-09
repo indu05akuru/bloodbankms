@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeDrop | Blood Bank Management System</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo/logo-mark.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+  <div id="landing" class="landing" hidden></div>
+  <div id="auth-view" class="auth-view" hidden></div>
+
+  <div id="app-view" class="app-view" hidden>
+    <aside class="sidebar">
+      <div class="brand"><img src="assets/logo/logo-full-light.svg" alt="LifeDrop" class="brand-logo"></div>
+      <nav id="menu"></nav>
+      <div class="sidebar-footer">
+        <div id="user-box"></div>
+        <button class="btn btn-light btn-block" onclick="Auth.logout()">Logout</button>
+      </div>
+    </aside>
+    <main class="content">
+      <h1 id="page-title"></h1>
+      <div id="content"></div>
+    </main>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root"></div>
+  <div id="demo-root"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/landing.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/donor.js"></script>
+  <script src="js/hospital.js"></script>
+  <script src="js/demo.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
